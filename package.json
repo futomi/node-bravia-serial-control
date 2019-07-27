@@ -1,0 +1,31 @@
+{
+  "name": "node-bravia-serial-control",
+  "version": "0.0.1",
+  "description": "The node-bravia-serial-control is a Node.js module which is an implementation of the Serial Control for SONY BRAVIA Professional Displays. You can control BRAVIA Professional Displays from your PC via RS-232C easily using this module.",
+  "main": "./lib/bravia-serial-control.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BRAVIA",
+    "SONY",
+    "Simple IP control"
+  ],
+  "homepage": "https://github.com/futomi",
+  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futomi/node-bravia-serial-control.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "serialport": ">=7.1.5"
+  }
+}
